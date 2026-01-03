@@ -1,6 +1,9 @@
-Some powered speakers power off and/or behave erratically (crackling) when no sound is played for some time (Klipsch powered speakers have issues even after a few seconds of no sound).
+Some powered speakers power off and/or behave erratically (crackling sound) when no sound is played for some time (Klipsch powered speakers have issues even after a few seconds of inactivity).
+
 This repo contains a simple Windows 11 "fix" for this to continously play an "empty" .wav file.
+
 You can verify whether this approach of playing a sound helps you without doing anything fancy by just playing any sound in the background: https://onlinetonegenerator.com (set it to 20,000 Hz and leave it running). If it helps you, then the below steps will run a minimal background task on Windows 11 that will accomplish the same.
+
 Instructions:
 
 1. Download the files in this repo. `make_silent_wav.ps1` is just included for reference, you don't need to run it.
